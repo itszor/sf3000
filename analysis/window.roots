@@ -8,3 +8,17 @@
 &1862d54	# gap entry, from pc=&1862694 LR=&81862d57
 &1862d5c	# gap entry, from pc=&186294c LR=&1862d5f
 &1862d7c	# gap entry, from pc=&1862d5c LR=&1862d5f
+&1862c40	# gap entry, from pc=&1862c34 LR=&4186683f
+&1862c48	# gap entry, from pc=&1862c34 LR=&4186683f
+&1862cec	# gap entry, from pc=&1862c40 LR=&4186683f
+&1862cf8	# gap entry, from pc=&1862694 LR=&81862cfb
+&1862d08	# gap entry, from pc=&18627cc LR=&418604cb
+&1862d30	# gap entry, from pc=&1862d08 LR=&418604cb
+&1862d64	# gap entry, from pc=&1862c48 LR=&4186683f
+&1862d70	# gap entry, from pc=&1862694 LR=&81862d73
+&1862c44	# gap entry, from pc=&1862c34 LR=&4186683f
+&1862d10	# gap entry, from pc=&1862c44 LR=&4186683f
+&1862d1c	# gap entry, from pc=&1862694 LR=&81862d1f
+&186105c	# gap entry, from pc=&18647cc LR=&218647d3
+&1861090	# gap entry, from pc=&1861078 LR=&218647d3
+&186109c	# gap entry, from pc=&1861094 LR=&218647d3
