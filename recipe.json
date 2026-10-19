@@ -1,0 +1,101 @@
+{
+ "name": "sf3000",
+ "title": "Star Fighter 3000 release 3.21 (Fednet Software, 1994; Chris Bazley, 2020)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py). The game is a Toolbox application: the Toolbox modules are run as they are, from the user's own !System (the Universal !Boot's, with a later Toolbox over it).",
+ "inputs": {
+  "containers": {
+   "Star Fighter 3000 3.21 (2020)(Fednet + Chris Bazley).zip": "4f4eff756d475bd5ab1b6f3a569e57a6d51123e4509aab0c30921ee065b64928",
+   "uniboot.zip": "550f872924db1d0a389136e658681c93514954484021736525997ee2ed580a8b",
+   "system.zip": "35e9d935664562056f55681a18d9a14ea6d8288891bae6d7d48a0cfd11a65216"
+  },
+  "formats": [
+   "zip",
+   "directory"
+  ]
+ },
+ "discs": [
+  {
+   "name": "game",
+   "title": "Star Fighter 3000 3.21 (the 2020 zip of !Star3000, LinkMe and ReadMe)",
+   "known_images": [
+    "ca4320e29d70e3cd17443448a0384ae82d31e15627018359be60977b4a4cbe1b"
+   ],
+   "key_files": {
+    "!Star3000/!Run": "b3106e4a924b5694fada89342248e76cef5245545f7ff27ec8c1f53befef9650",
+    "!Star3000/!Boot": "c5ec88a4d27b89248895ad849c6b4f0dd41bec6abb16c33a96f2d1151a9d9546",
+    "!Star3000/!RunImage": "19710bfa9521bd02f34ef9651a06f422a776b6aa4e8a647d889a750473200de4",
+    "!Star3000/Code/FDComp": "334e1d3d9119eb57802925129be999c3c0474801331495317dd9743405b05559",
+    "!Star3000/Code/SFX_Handle": "5a7f6c117aa7b2c744712398a6720b1695223bdfc54276894f5d78ca58424344",
+    "!Star3000/Code/AllocScr": "dbd4be202978950ffe5805a70a83cd0750603f7b34d82f186a857e3b8dab2ace",
+    "!Star3000/Resources/UK/Res": "525ea3e7872f6fd91bb83e6c766707a90469382aa7fd865e969686714b5a7cd5",
+    "!Star3000/Resources/UK/Messages": "a2a0f1cd59d8575689bbdb157ee297e78573ae2c14e3edd71e3266d86c36c3d0",
+    "!Star3000/Resources/ResFind": "7565a167d8ede3428610682a97c88d7ec4a497fb7f3b5b6c6c1c3ee7f1c31f07",
+    "!Star3000/Data/TexData": "ad1a6b5ca3c313bfad5e4ece9f95283934c72497a337b52045f03a4eb67bf549",
+    "!Star3000/Data/Pic4": "e0faf6b0d5887350d8bad69b70fbcf0a85f9ace3702597ce8d72801e0f5efc97",
+    "!Star3000/Defaults/Config": "d7af052d671ffb754d18ded6a0a965b4a7c34c39c632628ebf737cb5bc998c71"
+   },
+   "game_dirs": [
+    "!Star3000"
+   ]
+  },
+  {
+   "name": "system",
+   "title": "Acorn's Universal !Boot (uniboot.zip, 1998): the Toolbox modules and FilterManager for RISC OS 3.1",
+   "known_images": [
+    "962f719b7fb5cfc213228e320157625ded201d0234cf58720a1846a0a75ef6a6"
+   ],
+   "key_files": {
+    "!Boot/Resources/!System/310/Modules/Toolbox/Toolbox": "f66195b91a6f52831d2eb4d545b2b9fa7b7e0e756c489f119118b962a140aadb",
+    "!Boot/Resources/!System/310/Modules/Toolbox/Window": "5121aa194f2f3bfb62450aea5a887c2bb455adccf183082eef04229728bf0fc6",
+    "!Boot/Resources/!System/310/Modules/Toolbox/Menu": "1f330ddb0bd3fb7be5a683285c1277e6247fe17a9482168200150e1a0928d533",
+    "!Boot/Resources/!System/310/Modules/Toolbox/IconBar": "6cf6a4ac0ee31093d9fefb1b77e491e69e6087e85d96138a530be180d61eafb2",
+    "!Boot/Resources/!System/310/Modules/Toolbox/ProgInfo": "48088f0713d4cd56c2a8d3074b8f00e5433fe4f05762d3b6b51e25aaaeabf09e",
+    "!Boot/Resources/!System/310/Modules/Toolbox/SaveAs": "c81895481d51cbfbfbeaebdc3c2b1e8dbeefe89781ac9fe0778091b143902d3d",
+    "!Boot/Resources/!System/310/Modules/Toolbox/Scale": "5dac31aeededeb6a53569c804ac33ad491ef4d44245f4257152afbd1b48f4ed1",
+    "!Boot/Resources/!System/310/Modules/Toolbox/DCS_Quit": "37545ff55018a7a6cf436063d52e37c0ccac04b3bbd6495f35190e9543203eab",
+    "!Boot/Resources/!System/310/Modules/FilterMgr": "c5fe444f5b284896a3b6714e0e667fa1f0e2151ab9952c0705f616ae747ed9e1",
+    "!Boot/Resources/!System/310/Modules/DragAnObj": "ebf80217df041daf6347f780e41d27a89f94bac233165b6e0cd564cc33b74dbb",
+    "!Boot/Resources/!System/310/Modules/DragASprit": "cc06ee2d2528be8e31f5a92833690fbd9100bfa2012218a0822192b7cab146a4",
+    "!Boot/Resources/!System/310/Modules/BorderUtil": "32f7e3d5509491391ba92af1e57d6a739d79565455be820b86635a62098d1663",
+    "!Boot/Resources/!System/310/Modules/310Support/ThreeTen": "3c919d08a3aecef1527311087bee30672ee573abeab768c5ee9cb84c8b0ec0d2",
+    "!Boot/Resources/!System/310/Modules/310Support/icons": "dd0bb90b6a1a19c2f3492d323c0674efdfc765ed4de7595f5b88e9b3a37e262a"
+   },
+   "game_dirs": [
+    "!Boot/Resources/!System"
+   ]
+  },
+  {
+   "name": "toolbox",
+   "title": "A later !System's Toolbox (system.zip, 1998: Toolbox 1.43, Window 1.54) over the Universal !Boot's - the game needs a later Window than the Universal !Boot's 1.47",
+   "known_images": [
+    "8da693761f5b822b5fece33c95950f291a4b69ba1846165f353d12d7fd017e0c"
+   ],
+   "key_files": {
+    "!Boot/Resources/!System/310/Modules/Toolbox/Toolbox": "094c59ae0173ff5b23c6b751e5180dc73a387a680f6cdb7b016d71bac5c1638a",
+    "!Boot/Resources/!System/310/Modules/Toolbox/Window": "bedcc189a367ba9bb60e566676e84e72ff683b32294c73f8c1161df0e523806e",
+    "!Boot/Resources/!System/310/Modules/Toolbox/ProgInfo": "707a5c38cffdbf6dc1cea18530e2ec3b903e9a32284029c567f5f6b38846eca7"
+   },
+   "game_dirs": [
+    "!Boot/Resources/!System"
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/sf3000",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/weave.py",
+  "libroger": "~/stuff/libroger, or make ROGER=...",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./sf3000"
+}

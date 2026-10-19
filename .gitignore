@@ -1,0 +1,28 @@
+# Python / editors
+__pycache__/
+*.pyc
+*.swp
+
+# Analysis outputs (make regen in recomp/: ../tools/images.py)
+analysis/*.json
+analysis/*.pickle
+
+# Recompilation: generated C, objects, binaries, run outputs
+recomp/gen/
+recomp/*.o
+recomp/sf3000
+recomp/sf3000.*
+recomp/recomp.*
+recomp/*.log
+recomp/*.trace
+recomp/screenshot-*.bmp
+recomp/*.wav
+recomp/savedata/
+recomp/Scrap/
+
+# The originals and everything made from them: build.sh (recipe.json)
+# remakes them from the user's own copies.
+*.zip
+extracted/
+game/
+unpacked/
