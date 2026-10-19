@@ -71,8 +71,10 @@ All of it, as far as played: the title, the attract flight, the menus,
 mission select, the ship shop, the map and its briefing, flying missions
 (full screen and in the window), music and effects (SFX_Handler's voice
 generator through libroger's sound system), the window's menu (Full
-screen). Not tried yet: the Configure screens, the window's other menu
-entries and dialogue boxes, later missions. The game generates its plotters at run time in its heap
+screen), the Choices dialogue box (Adjust on the icon bar icon: all seven
+panes, with the key names from Keyboards.1). Not tried yet: the in-game
+Configure screens, the window's other menu entries and dialogue boxes,
+later missions. The game generates its plotters at run time in its heap
 and SFX_Handler copies code into the RMA: those ranges are interpreted
 (game.c).
 
